@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Fira+Sans&family=Indie+Flower&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    max-width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 { 
+    font-family: 'Architects Daughter', 'Times New Roman', serif;
+    font-size: 50px; 
+}
+
+h2 {
+    font-family: 'Indie Flower', sans-serif, serif;
+    font-size: 30px;
+    border-bottom: 5px solid black;
+    padding-bottom: 15px;
+}
+
+h3 {
+    font-family: 'Fira sans', sans-serif, serif;
+    font-size: 22px;
+}
+
+hr {
+    border: 1px solid black;
+    border-radius: 0px;
+    max-width: 65%;
+}
+
+label {
+    font-family: 'Fira sans', sans-serif, serif;
+    font-size: 18px;
+    margin: 35px auto;
+}
+
+input {
+    padding: 3px;
+    margin-bottom: 12px;
+    max-width: 70px;
+}
+
+.meal-details, .custom-bill, .earnings {
+    border: 5px solid black;
+}
+
+.meal-details {
+    max-width: 400px;
+    margin: 20px;
+    text-align: center;
+}
+
+.custom-bill {
+    margin: 20px;
+}
+
+.earnings {
+    margin: 20px;
+}
+
+.group {
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    flex: 1;
+}
+
+.item-double {
+    flex: 2;
+}
+
+.reset {
+    padding-left: 95%;
+    padding-top: 5%;
+}
